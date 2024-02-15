@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'KBO-Dia-Gothic_light';
+  src: url('../font/font/KBO-Dia-Gothic_light.woff') format('woff');
+}
+
+#sidebar {
+  font-family: 'KBO-Dia-Gothic_light';
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.logom_btn {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 767px;
+  height: 60px;
+  background-color: #0062DF;
+}
+
+.logom_btn li:nth-child(1) {
+  padding: 8px 15px;
+}
+
+.logom_btn li:nth-child(2) {
+  padding: 18px;
+}
+
+.menu {
+  margin: 0 auto;
+  z-index: 1000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #ffff;
+  width: 100%;
+  max-width: 767px;
+  height: 100vh;
+}
+
+.menu li:nth-child(1) {
+  width: 100%;
+}
+
+.menu>li {
+  position: relative;
+  width: 50%;
+  height: 60px;
+  background-color: #254880;
+  border-bottom: 1px solid #DFDFDF;
+}
+
+.menu>li>a {
+  width: 50%;
+  text-align: center;
+  display: block;
+  color: #fff;
+  margin: 0 auto;
+  line-height: 60px;
+}
+
+.menu .icon_sns {
+  background-color: transparent;
+  border-bottom: transparent;
+  text-align: center;
+}
+
+.menu .icon_sns img {
+  margin: 10px;
+}
+
+.main:hover {
+  background-color: #D65347;
+}
+
+/* Sub Menu */
+.show {
+  display: none;
+  line-height: 60px;
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  width: 100%;
+  max-width: 767px;
+  left: 100%;
+}
+
+.sub1 {
+  top: -60px;
+}
+
+.sub2 {
+  top: -121px;
+}
+
+.sub3 {
+  top: -182px
+}
+
+.show li {
+  text-align: center;
+  width: 100%;
+  max-width: 767px;
+  height: 60px;
+  border-bottom: 2px solid #adadad31;
+}
+
+.show li a {
+  color: #959595;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.menu>.icon_sns {
+  background-color: #00083B;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+}
